@@ -1,0 +1,803 @@
+body {
+    background-image: linear-gradient(rgba(0, 12, 19, 0.6), rgba(0, 12, 19, 0.6)), url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038f70ef0141a2f22d50f58_menu__background.jpg");
+}
+
+div {
+    height: fit-content;
+    width: fit-content;
+}
+
+button {
+    border-radius: 0 !important;
+}
+.navbar {
+    background-color: transparent;
+    display: flex;
+    margin-left: 0;
+    left: 12vh;
+    width: 190vh;
+}
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 2.2vh;
+    color: #fff !important;
+    padding: 1.5rem 0.5rem 0rem 0.5rem !important;
+    line-height: 3.6vh;
+    letter-spacing: 0.1vh;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.nav-link:active,
+.nav-link:focus {
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 3.6vh;
+    text-underline-offset: 2.3vh;
+}
+
+.sideMenu {
+    margin-top: 10vh;
+    width: fit-content;
+}
+
+.border {
+    z-index: 1;
+    width: 70vw;
+    height: 1px;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .15) 73%, rgba(255, 255, 255, 0));
+    left: 12vh;
+    top: 10vh;
+    border: 0 !important;
+}
+
+.borderV {
+    width: 1px;
+    height: -webkit-fill-available;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .15) 73%, rgba(255, 255, 255, 0));
+    top: 0;
+    left: 8.6vh;
+}
+
+.sideMenu-item {
+    display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+.sideMenu-img {
+    width: 6.3vh;
+    height: 4.3vh;
+    padding-left: 2vh;
+    position: absolute;
+    left: 0;
+    opacity: 0.6;
+}
+
+.sideMenu-img:hover {
+    opacity: 1;
+}
+
+.sideMenu-img:active,
+.sideMenu-img:focus {
+    opacity: 1;
+    border-left: 3px solid #ee930e;
+}
+
+.help {
+    background-repeat: no-repeat;
+    width: 6vh;
+    height: 3.2vh;
+    opacity: .5;
+    background-color: rgba(0, 0, 0, 0);
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    display: flex;
+    position: relative;
+    top: 27vh;
+}
+
+.help:hover {
+    opacity: 1;
+}
+
+.help-img {
+    height: auto;
+    width: auto;
+}
+
+.quit {
+    top: 29vh;
+    position: relative;
+    left: 2.5vh;
+    opacity: 0.5;
+}
+
+.quit-img {
+    width: 1.4vh;
+    height: 1.4vh;
+}
+
+.quit:hover {
+    opacity: 1;
+}
+
+.Logo {
+    width: 6vh;
+    height: 6vh;
+    border: 2px solid #ee930e;
+    border-style: solid solid none none;
+    border-radius: 100%;
+    margin: 1vh;
+    /* justify-content: center;
+    align-items: center;
+    position: absolute; */
+}
+
+.Logo,
+img {
+    height: 6.3vh;
+    width: 6.3vh;
+}
+
+.navbar-brand,
+img {
+    height: 26.5px;
+    width: 126.54px;
+    margin-right: 3.5vh;
+    margin-bottom: 1vh;
+}
+
+.invite-block {
+    z-index: 9995;
+    width: 27vh;
+    height: -webkit-fill-available;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3.5vh;
+    padding-left: 1.5vh;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+    transform: translate3d(19vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.invite-row {
+    margin-bottom: 1.5vh;
+    position: relative;
+    width: auto;
+    left: 1vh;
+}
+
+.invite-line {
+    height: 1px;
+    width: auto;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.invite-img {
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+    display: inline-block;
+    height: fit-content !important;
+    width: fit-content !important;
+}
+
+.invite {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab15999e303e7c202c28c_squad.svg");
+    background-repeat: no-repeat;
+    background-size: 1.5vh;
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 1.5vh !important;
+    display: inline-block;
+    width: auto !important;
+}
+
+.online {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab159d334e32483dbbcbb_online.svg");
+}
+
+.offline {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab15904900760dbfa7f70_offline.svg");
+}
+
+.invite-h {
+    padding: 0 0 0 2vh;
+    margin: 0 0 0 0;
+    height: fit-content;
+    width: auto;
+    color: #fff;
+    letter-spacing: .08vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    opacity: 0;
+    margin-bottom: 1vh
+}
+
+.invite-item {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab158769fa828e95f98df_home__join-default.svg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-size: 4.3vh;
+    height: 4.3vh;
+    display: inline-block;
+}
+
+.invite-item-h {
+    opacity: 1;
+    padding: 2vh 0 2vh 5.5vh;
+    color: #fff;
+    letter-spacing: .08vh;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.2vh;
+    font-weight: 600;
+    line-height: 1.6vh;
+    padding: 0.4vh 0 0 3.5vh
+}
+
+.Ionline {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1585908791f051d4af4_home__friend-picture-MaryJane.png");
+}
+
+.Ioffline {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1583424fd3ddf23a848_home__friend-picture-420.png");
+}
+
+.invite-block:hover {
+    transform: translate3d(0vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    background-color: rgba(16, 16, 16, 0.8);
+}
+
+.invite-block:hover .invite-line {
+    opacity: 1;
+}
+
+.invite-block:hover .invite-h {
+    opacity: 1;
+}
+
+.invite-h-row {
+    margin-top: 1.2vh;
+}
+
+.invite-row:hover {
+    background-color: white;
+}
+
+.invite-row:hover .invite-item-h {
+    color: black;
+}
+
+.invite-row:hover .invite-item {
+    opacity: 1;
+}
+
+.invite-row:hover .squad {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1596100550691c84f76_home__join-black.svg");
+}
+
+.react-multi-carousel-list {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: unset !important;
+    position: relative;
+    left: 12vh;
+    top: -37vh;
+    height: 20vh;
+    width: 100vh;
+}
+
+.react-multiple-carousel__arrow--right {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.RecentlyPlayed {
+    position: relative;
+    top: -14vh;
+    left: 12vh;
+}
+
+.card {
+    transform: translate3d(0px, -0.2vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    background-color: rgba(16, 16, 16, 0.5);
+    width: 20vh;
+    height: 25vh;
+    margin-right: 0.5vh;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.card-body {
+    z-index: 3;
+    background-color: rgba(16, 16, 16, .5);
+    padding-top: 2vh;
+    position: relative;
+    top: auto;
+    left: 0%;
+    right: 0%;
+    overflow: visible;
+}
+
+.card-img-top {
+    width: 20vh;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+}
+
+.card-title {
+    color: #fff;
+    letter-spacing: .15vh;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 0.2vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 700;
+    line-height: 2vh;
+}
+
+.card-text {
+    color: rgb(255, 255, 255, 0.5);
+    letter-spacing: .12vh;
+    text-transform: capitalize;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.3vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+
+.col-lg-2 {
+    padding: 0;
+    max-width: fit-content;
+}
+
+.soldier {
+    z-index: 2;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 6vh;
+    display: flex;
+    position: relative;
+    height: 0;
+}
+
+.soldier-look {
+    width: 33vh;
+    height: 0;
+    flex: none;
+    position: relative;
+    top: -89vh;
+    left: 16vh;
+}
+
+.dogtags {
+    position: relative;
+    top: 47vh;
+}
+
+.soldier-dogtags-left {
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 10vh;
+    left: -4vh;
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+.soldier-dogtags-right {
+    z-index: 1;
+    max-width: unset;
+    position: relative;
+    left: -16vh;
+    top: 12vh;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.soldier-pic {
+    width: 33vh;
+    height: auto;
+    position: relative;
+    margin: 0;
+}
+
+.soldier-menu {
+    width: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    margin-right: 6vh;
+}
+
+.soldier-menu-w {
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.7vh;
+    padding-right: 1.7vh;
+    text-decoration: none;
+    display: flex;
+}
+
+.soldier-menu-h,
+h2 {
+    color: #fff;
+    letter-spacing: .07vh;
+    text-transform: uppercase;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.4vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    text-decoration: none;
+}
+
+.soldier-content {
+    display: flex;
+    top: -53vh;
+    left: 17vh;
+    flex-direction: column;
+    padding: 0;
+}
+
+.soldier-level {
+    width: 8vh;
+    height: 8vh;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vh;
+    display: flex;
+    position: relative;
+    flex: 0 0 8vh
+}
+
+.soldier-level-bar {
+    width: 8vh;
+    height: 8vh;
+    border: 2px solid #ee930e;
+    border-style: solid solid none none;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    margin-left: -1px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.soldier-info {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3vh;
+    display: flex;
+}
+
+.soldier-level-info {
+    padding: 0;
+}
+
+.soldier-level-info-h {
+    color: #fff;
+    margin-bottom: 1vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 2.7vh;
+    font-weight: 700;
+    line-height: 3.5vh;
+}
+
+.soldier-level-icon {
+    height: 7vh;
+    width: 7vh;
+    margin: 0;
+}
+
+.soldier-level-stats {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    display: flex;
+}
+
+.soldier-menu .soldier-menu-stats {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 1vh;
+    margin-bottom: 1.2vh;
+    display: flex;
+}
+
+.soldier-menu-stats-h {
+    color: #fff;
+    text-align: right;
+    letter-spacing: .08vh;
+    margin-bottom: 0.3vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.25vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    text-decoration: none;
+}
+
+.soldier-stats-bar-orange {
+    z-index: 2;
+    height: 4px;
+    background-color: #ee930e;
+    position: absolute;
+}
+
+.soldier-stats-bar-black {
+    z-index: 1;
+    width: 7vh;
+    height: 4px;
+    background-color: rgba(16, 16, 16, .5);
+    position: relative;
+}
+
+.soldier-level-no {
+    width: 6vh;
+    border: 1px solid rgba(255, 255, 255, .3);
+    margin-right: 1.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex: unset;
+}
+
+.soldier-level-text {
+    color: #fff;
+    text-align: center;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.4vh;
+    font-weight: 500;
+    line-height: 1.8vh;
+}
+
+.soldier-level-current {
+    color: #fff;
+    margin-right: 0.5vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.4vh;
+    font-weight: 500;
+    line-height: 1.8vh;
+    width: 22vh;
+    padding: 0;
+    max-width: 26%;
+}
+
+.soldier-level-estimate {
+    color: rgba(255, 255, 255, .5);
+    margin-right: 0.5vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.4vh;
+    font-weight: 500;
+    line-height: 1.8vh;
+    padding: 0;
+    flex: unset;
+    max-width: none;
+}
+
+.soldier-game-stats {
+    padding: 0;
+    position: relative;
+    top: -42vh;
+    left: 12vh;
+}
+
+.soldier-stats {
+    margin-right: 9vh;
+}
+
+.soldier-stats-w {
+    align-items: flex-start;
+    margin-bottom: 5vh;
+    display: flex;
+}
+
+.soldier-stats-h {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 500;
+    line-height: 1.8vh;
+}
+
+.soldier-stats-percent {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 2.8vh;
+    font-weight: 700;
+    line-height: 3.5vh;
+}
+
+.soldier-top-stats {
+    width: 24vh;
+    height: 15vh;
+    background-color: rgba(16, 16, 16, .5);
+    padding: 1vh;
+    text-decoration: none;
+    position: relative;
+}
+
+.soldier-top-stats-w {
+    grid-column-gap: 6px;
+    grid-row-gap: 8px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.soldier-top-stats-info {
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.soldier-top-stats-h {
+    color: rgba(255, 255, 255, .7);
+    letter-spacing: .15vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.3vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+
+.soldier__top-stats-info {
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+}
+
+.soldier-top-stats-weapon {
+    color: #fff;
+    letter-spacing: .05vh;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.4vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+
+.soldier-top-stats-weapon-s {
+    color: rgba(255, 255, 255, .5);
+    letter-spacing: .05vh;
+    text-transform: none;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.3vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+
+.white-img {
+    z-index: 1;
+    height: 8vh;
+    width: auto;
+    position: absolute;
+    left: 10%;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.black-img {
+    z-index: 2;
+    height: 8vh;
+    width: auto;
+    display: none;
+    position: absolute;
+    left: 10%;
+}
+
+.soldier-menu-w:hover {
+    background-color: white;
+}
+
+.soldier-menu-w:hover .soldier-stats-bar-black {
+    background-color: rgba(16, 16, 16, .3);
+}
+
+.soldier-menu-w:hover .soldier-menu-h {
+    color: rgba(16, 16, 16);
+    font-weight: 500;
+}
+
+.soldier-menu-w:hover .soldier-menu-stats-h {
+    color: rgba(16, 16, 16);
+    font-weight: 500;
+}
+
+.soldier-top-stats:hover {
+    background-color: #fff;
+}
+
+.soldier-top-stats:hover .soldier-top-stats-h {
+    color: rgba(16, 16, 16);
+    text-decoration: none;
+}
+
+.soldier-top-stats:hover .soldier-top-stats-weapon {
+    color: rgba(16, 16, 16);
+}
+
+.soldier-top-stats:hover .soldier-top-stats-weapon-s {
+    color: rgba(16, 16, 16);
+}
+
+.soldier-top-stats:hover .black-img {
+    display: block;
+}
+
+.soldier-top-stats:hover .white-img {
+    display: none;
+}
+
+.soldier-emblem {
+    z-index: 1;
+    width: 38vh;
+    height: auto;
+    position: absolute;
+    top: -31.6vh;
+    bottom: auto;
+    left: 52vh;
+    right: 35.5vh;
+}
+
+@media screen and (max-width: 988px) {
+    .soldier-info {
+        position: absolute;
+        top: 57vh;
+    }
+    .soldier-select {
+        position: absolute;
+        top: 74.5vh;
+    }
+    .soldier-game-stats {
+        top: 76vh
+    }
+}
